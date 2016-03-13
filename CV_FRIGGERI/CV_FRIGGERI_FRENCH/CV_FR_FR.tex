@@ -1,0 +1,165 @@
+\documentclass[]{friggeri-cv}
+\usepackage{unicode-math}
+\usepackage{fontawesome}
+%http://tex.stackexchange.com/a/113912/17151
+\newfontfamily\bodyfont[]{Segoe UI}
+\newfontfamily\thinfont[]{Segoe UI Light}
+\newfontfamily\headingfont[]{Segoe UI Semibold}
+%\setmainfont[Mapping=tex-text, Color=textcolor]{Source Sans Pro}
+%\setmathfont{STIXGeneral}
+
+\definecolor{light-gray}{gray}{0.55}
+\definecolor{skype}{HTML}{12A5F4}
+\definecolor{html5}{HTML}{e34c26}
+\definecolor{php}{HTML}{6c7eb7}
+\definecolor{db}{HTML}{FF9900}
+\definecolor{linkedin}{HTML}{1683BB}
+
+
+% \addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+	\newfontfamily{\FA}{FontAwesome}
+	\header{Sven}{Borden}{Etudiant} % Your name and current job title/field
+	
+	%----------------------------------------------------------------------------------------
+	%   SIDEBAR SECTION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{aside} % In the aside, each new line forces a line break
+		\section{Contact}
+		{\color{light-gray}{\FA \faHome}} \small{Chemin de Crausaz 18
+		1162, St-Prex}
+		~
+		{\color{light-gray}{\FA \faMobile}} \small{078 611 32 21}
+		{\color{light-gray}{\FA \faPhone}} \small{021 806 10 65}
+		~
+		{\color{light-gray}{\FA \faEnvelope}}\href{mailto:sven.borden@outlook.com}{\small{sven.borden@outlook.com}}
+		~
+		{\color{linkedin}{\FA \faLinkedin}} \href{https://www.linkedin.com/in/sven-borden-bba744a0}{LinkedIn}	
+		~
+		\section{Informatique}
+		\small{{\color{red} \FA \faHeart} C\#, C++
+			~
+			{\color{html5}\FA \faHtml5} HTML5, CSS3,
+			{\color{php}\FA \faCode} Java, .NET \& Javascript
+			~
+			{\color{gray}\FA \faLinux} Linux \& Shellscipt
+			{\color{db}\FA \faTh} Optimisation \& parallélisation}
+		~
+		\section{Langues}
+		\small{\emph{lu, parlé, écrit} Français
+		\emph{lu, parlé, écrit} (C1) Anglais
+		\emph{lu, parlé, écrit} (B2) Allemand
+		\emph{parlé} Chinois}
+	\end{aside}
+	
+	\section{Expériences}
+	
+	\textbf{Emplois - stages}\\ 
+	
+	\begin{entrylist}
+		
+		\entry
+		{été 2014}
+		{Stagiaire}
+		{Kudelski Security, Cheseaux-sur-Lausanne}
+		{Prototype d'un quadricopter militaire fonctionnant sur la communication 4G-LTE contrôlé via smartphone}
+		
+		\entry
+		{été 2013}
+		{Recherches en Informatique}
+		{Université Lafayette, Louisianne, USA}
+		{Implémentation d'une parallélisation dans l'interpréteur Javascript de Mozilla Firefox}
+		
+		\entry
+		{Fin 2012}
+		{Employé de commandes}
+		{Bugnard SA, Lausanne}
+		{Préparations de commandes et d'assortiments \& comptabilité}
+		
+	\end{entrylist}
+	\\ \\
+	\textbf{Concours - Expositions} \\ 
+	
+	\begin{entrylist}
+		
+		\entry
+		{Sept. 2014}
+		{Exposition ESE Milset 2014}
+		{Université Zilina, Slovaquie}
+		{Exposition du prototype d'un véhicule développé lors d'un concours}
+		
+		\entry
+		{Mai 2014}
+		{Concours national "La science appelle les jeunes"}
+		{EPFL, Lausanne}
+		{Présentation d'un drone roulant conçu dans le cadre du travail de maturité (prix spécial METROM)}
+	\end{entrylist}
+	
+	\section{Diplôme et Etudes}
+	
+	\begin{entrylist}
+		
+		\entry
+		{Depuis 2015}
+		{Microtechnique}
+		{Sciences et Techniques de l'Ingénieur}
+		{Ecole Polytechnique Fédérale de Lausanne}
+		
+		\entry
+		{2014 - 2015}
+		{Médecine}
+		{Faculté de biologie et de médecine}
+		{Université de Lausanne}
+		
+		\entry
+		{2001 - 2014}
+		{Etudes de Piano}
+		{Conservatoire de lausanne}
+		{Nombreux spectacles et prix, certificat obtenu en 2014}
+		
+		\entry
+		{2002 - 2009}
+		{Etudes de Solfège}
+		{Conservatoire de Lausanne}
+		{Certificat obtenu en 2010}
+		
+		\entry
+		{2010 - 2014}
+		{Etudes gymnasiales}
+		{Marcelin, Morges}
+		{Option spécifique Mathématiques et Physique}
+		
+		\entry
+		{2000 - 2010}
+		{Etudes obligatoires}
+		{St-prex}
+		{Option Mathématiques et Physique}
+		
+	\end{entrylist}
+	
+	\section{Centres d'intérêt}
+	
+	\begin{entrylist}
+		
+		\entry
+		{Sports}
+		{Badminton, vélo, beach-volley}
+		{Sport d'extérieurs}
+		{}
+		
+		\entry
+		{Informatique}
+		{Interfaces graphiques, optimisation}
+		{Systèmes embarqué}
+		{Algorithmique génétique et systèmes autonomes}
+		
+		\entry
+		{Art et culture}
+		{Piano, lecture}
+		{Musique}
+		{}
+		
+	\end{entrylist}
+\end{document}
