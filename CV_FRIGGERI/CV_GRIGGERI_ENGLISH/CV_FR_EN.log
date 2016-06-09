@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.27)  27 APR 2016 11:48
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.27)  9 JUN 2016 10:39
 entering extended mode
-**./CV_FR_FR.tex
-(CV_FR_FR.tex
+**./CV_FR_EN.tex
+(CV_FR_EN.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (friggeri-cv.cls
@@ -1309,8 +1309,8 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 \@quotelevel=\count345
 \@quotereset=\count346
 
-(CV_FR_FR.aux)
-\openout1 = `CV_FR_FR.aux'.
+(CV_FR_EN.aux)
+\openout1 = `CV_FR_EN.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -1390,12 +1390,12 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `CV_FR_FR.bcf'.
+\openout4 = `CV_FR_EN.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'CV_FR_FR.bbl' not found.
+Package biblatex Info: ... file 'CV_FR_EN.bbl' not found.
 
-No file CV_FR_FR.bbl.
+No file CV_FR_EN.bbl.
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
 *geometry* detected driver: pdftex
@@ -1445,9 +1445,9 @@ LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
 
-(CV_FR_FR.out) (CV_FR_FR.out)
+(CV_FR_EN.out) (CV_FR_EN.out)
 \@outlinefile=\write5
-\openout5 = `CV_FR_FR.out'.
+\openout5 = `CV_FR_EN.out'.
 
 LaTeX Info: Redefining \FA on input line 22.
 Requested font "Segoe UI Light/OT:script=latn;language=DFLT;mapping=tex-text;" 
@@ -1473,7 +1473,7 @@ pping=tex-text;mapping=tex-text;color=4D4D4DFF ;" at 9.0pt
 Requested font "FontAwesome/OT:mapping=tex-text;" at 9.0pt
  -> C:/WINDOWS/Fonts/FontAwesome.otf
 
-Overfull \hbox (8.1935pt too wide) in paragraph at lines 37--37
+Overfull \hbox (8.1935pt too wide) in paragraph at lines 38--38
  []\EU1/FontAwesome(0)/m/n/9 [][]\EU1/SegoeUILight(1)/m/n/9 sven.borden@outloo
 k.com[]
  []
@@ -1490,11 +1490,6 @@ Requested font "Segoe UI Semibold/OT:script=latn;language=DFLT;mapping=tex-text
 Requested font "Segoe UI Semibold/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 10.0pt
  -> C:/WINDOWS/Fonts/seguisb.ttf
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;+ssty=0;" at 7.01236pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
@@ -1506,37 +1501,37 @@ h.otf
 Requested font "cmmi7" at 7.01236pt
 Requested font "cmmi5" at 4.98074pt
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 61.
+(Font)              scaled to size 10.00015pt on input line 62.
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;" at 10.00015pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
 h.otf
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 61.
+(Font)              scaled to size 7.01247pt on input line 62.
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;+ssty=0;" at 7.01247pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
 h.otf
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 61.
+(Font)              scaled to size 4.9808pt on input line 62.
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;+ssty=1;" at 4.9808pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
 h.otf
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 61.
+(Font)              scaled to size 9.99985pt on input line 62.
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;" at 9.99985pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
 h.otf
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 61.
+(Font)              scaled to size 7.01224pt on input line 62.
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;+ssty=0;" at 7.01224pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
 h.otf
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 61.
+(Font)              scaled to size 4.98067pt on input line 62.
 Requested font "[latinmodern-math]/OT:script=math;language=DFLT;mapping=tex-tex
 t;+ssty=1;" at 4.98067pt
  -> C:/Program Files (x86)/Miktex/fonts/opentype/public/lm-math/latinmodern-mat
@@ -1570,27 +1565,27 @@ Requested font "Segoe UI Light/OT:script=latn;language=DFLT;mapping=tex-text;ma
 pping=tex-text;mapping=tex-text;color=999999FF ;" at 8.0pt
  -> C:/WINDOWS/Fonts/segoeuil.ttf
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--84
+Underfull \hbox (badness 10000) in paragraph at lines 62--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--84
+Underfull \hbox (badness 10000) in paragraph at lines 62--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--99
+Underfull \hbox (badness 10000) in paragraph at lines 104--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--141
+Underfull \hbox (badness 10000) in paragraph at lines 132--164
 
  []
 
@@ -1600,14 +1595,24 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 )
 [1
 
-] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
- (CV_FR_FR.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 165.
-Package logreq Info: Writing requests to 'CV_FR_FR.run.xml'.
-\openout1 = `CV_FR_FR.run.xml'.
+]
+Overfull \hbox (12.99635pt too wide) in alignment at lines 167--193
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--194
+
+ []
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+ (CV_FR_EN.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 194.
+Package logreq Info: Writing requests to 'CV_FR_EN.run.xml'.
+\openout1 = `CV_FR_EN.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -1619,4 +1624,4 @@ Here is how much of TeX's memory you used:
  1096 hyphenation exceptions out of 8191
  73i,9n,70p,10455b,668s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on CV_FR_FR.pdf (2 pages).
+Output written on CV_FR_EN.pdf (2 pages).
