@@ -1,10 +1,12 @@
 \documentclass[]{friggeri-cv}
 \usepackage{unicode-math}
 \usepackage{fontawesome}
+%http://tex.stackexchange.com/a/113912/17151
 \newfontfamily\bodyfont[]{Segoe UI}
 \newfontfamily\thinfont[]{Segoe UI Light}
 \newfontfamily\headingfont[]{Segoe UI Semibold}
-
+%\setmainfont[Mapping=tex-text, Color=textcolor]{Source Sans Pro}
+%\setmathfont{STIXGeneral}
 
 \definecolor{dark}{gray}{0.1}
 \definecolor{green}{HTML}{C2E15F}
@@ -27,7 +29,7 @@
 	%----------------------------------------------------------------------------------------
 	
 	\begin{aside} % In the aside, each new line forces a line break
-		\includegraphics[scale=0.3]{"oim.png"}
+		\includegraphics[width=50pt]{"oim.jpg"}
 		\section{Contact}
 		{\color{light-gray}{\FA \faHome}} \small{Chemin de Crausaz 18
 		1162, St-Prex}
@@ -40,14 +42,14 @@
 		~
 		{\color{linkedin}{\FA \faLinkedin}} \href{https://www.linkedin.com/in/sven-borden-bba744a0}{LinkedIn}	
 		~
-		\section{Programming}
-		\small{{\color{red} \FA \faHeart} C\# (.NET \& UWP)
+		\section{Informatics}
+		\small{{\color{red} \FA \faHeart} C\#, C++, C, Java
+			~
+			{\color{html5}\FA \faHtml5} HTML5, CSS3,
+			{\color{php}\FA \faCode} Java, .NET \& Javascript
 			~
 			{\color{gray}\FA \faLinux} Linux \& Shellscipt
-			{\color{db}\FA \faTh} Optimisation, UX \& UI }
-			~
-			{\color{php}\FA \faCode} Java, C++ \& Javascript
-			{\color{html5}\FA \faHtml5} HTML5, CSS3, SAAS			
+			{\color{db}\FA \faTh} Optimisation \& Parallelization}
 		~
 		\section{Languages}
 		\small{\emph{read, speak, write} French
@@ -55,11 +57,11 @@
 		\emph{read, speak, write} German
 		\emph{speak} Chinese}
 		~
-		\section{Hobbies}
+		\section{\color{green}Hob\color{dark}bies}
 		~
 		\textbf{DIY} --  \small{All kind of hand made projects}
 		~
-		\textbf{Computer} --    \small{UX and UI design, optimisation and genetic algorithms}
+		\textbf{Computer} --    \small{User interface design, optimisation and genetic algorithms}
 		~
 	\textbf{Sport \& art}  --    \small{Piano, badminton, tennis, beach-volley}
 	\end{aside}
@@ -71,12 +73,6 @@
 	\begin{entrylist}
 		
 		\entry
-		{summer 2016}
-		{Rover development}
-		{Octanis at Univercité, Renens}
-		{Reusable, autonomous, solar powered and open source  rover for outdoors, designed for extreme environment, such as Antarctica}
-		
-		\entry
 		{summer 2014}
 		{Trainee}
 		{Kudelski Security, Cheseaux-sur-Lausanne}
@@ -86,16 +82,16 @@
 		{summer 2013}
 		{Research in computer science}
 		{University Lafayette, Louisiana, USA}
-		{Implementation on Javascript Code Parallelization in Mozilla Firefox Javascript engine (SpiderMonkey)}
+		{Implementation on Javascript Code Parallelization}
 		
 		\entry
 		{End 2012}
 		{Employee}
 		{Bugnard SA, Lausanne}
-		{Preparing packages in accordance with customer wishes}
+		{Order picking}
 		
 	\end{entrylist}
-	\\ \\ \\
+	\\ \\
 	\textbf{Meeting - Contest} %\\ 
 	
 	\begin{entrylist}
@@ -113,10 +109,15 @@
 		{Presentation of a drone built during a school project (special prize Metrohm)}
 
 	\end{entrylist}	
-	\\ \\
-
+%\\ \\
+	%\textbf{Projects} %\\
 	\section{Projects}
 	\begin{entrylist}
+		\entry
+		{EPFL Project}
+		{Another Bubbles' Concept}
+		{Semester project}
+		{Optimise a design according to client specification chart, CAD (CATIA V5). Knoledge in basic machine design and machine elements}
 		
 		\entry
 		{Kudelski}
@@ -135,14 +136,7 @@
 		{Unmanned Ground vehicle for scratch}
 		{Metrohm Prize at SJF 2014 in Switzerland}
 		{Wireless controlled vehicle over 4G-LTE with onboard live streaming camera}
-		
-		\entry
-		{EPFL Project}
-		{Another Bubbles' Concept}
-		{Semester project}
-		{Optimise a design according to client specification chart, CAD (CATIA V5). Knoledge in basic machine design and machine elements}
 	\end{entrylist}
-	\\ \\ \\
 	
 	\section{Diploma - Education}
 	
@@ -154,11 +148,11 @@
 		{School of Engineering}
 		{Ecole Polytechnique Fédérale de Lausanne}
 		
-		\entry
-		{2014 - 2015}
-		{Medical School}
-		{Faculty of biology}
-		{University of Lausanne}
+%		\entry
+%		{2014 - 2015}
+%		{Medical School}
+%		{Faculty of biology}
+%		{University of Lausanne}
 		
 		\entry
 		{2001 - 2014}
@@ -172,11 +166,33 @@
 %		{Conservatory of Lausanne}
 %		{Certificate obtained in 2010}
 		
-		\entry
-		{200 - 2014}
-		{public school}
-		{Marcelin, Morges}
-		{Mathematics and physics}
+%		\entry
+%		{200 - 2014}
+%		{public school}
+%		{Marcelin, Morges}
+%		{Mathematics and physics}
 	\end{entrylist}
 	
+%	\section{Hobbies}
+%	
+%	\begin{entrylist}		
+%		\entry
+%		{DIY}
+%		{All kind of hand made projects}
+%		{}
+%		{}
+%				
+%		\entry
+%		{Informatics}
+%		{User interface design, optimisation}
+%		{Autonomous system}
+%		{Genetic algorithms}
+%		
+%		\entry
+%		{Sport \& art}
+%		{Piano, Badminton, tennis, beach-volley}
+%		{Team sport}
+%		{}
+%		
+%	\end{entrylist}
 \end{document}
